@@ -70,7 +70,7 @@ function moveLaser(laser) {
 
         aliens.forEach((alien) => { //comparando se cada alien foi atingido, se sim, troca o src da imagem
             if(checkLaserCollision(laser, alien)) {
-                alien.src = '/img/explosion.gif';
+                alien.src = '/img/explosion1.gif';
                 alien.classList.remove('alien');
                 alien.classList.add('dead-alien');
                 document.getElementById("points").innerHTML=
