@@ -56,10 +56,10 @@ function createLaserElement() {
     let xPosition = parseInt(window.getComputedStyle(yourShip).getPropertyValue('left'));
     let yPosition = parseInt(window.getComputedStyle(yourShip).getPropertyValue('top'));
     let newLaser = document.createElement('img');
-    newLaser.src = 'img/shoot.png';
+    newLaser.src = 'img/laser.png';
     newLaser.classList.add('laser');
-    newLaser.style.left = `${xPosition + 65}px`;
-    newLaser.style.top = `${yPosition + 10}px`;
+    newLaser.style.left = `${xPosition + 85}px`;
+    newLaser.style.top = `${yPosition + 5}px`;
     return newLaser;
 }
 
